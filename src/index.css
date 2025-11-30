@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+
+body::-webkit-scrollbar{
+  width:0px;
+}
+
+@layer base{
+  body{
+    @apply dark:bg-black text-black dark:text-white ;
+  }
+}
